@@ -7,6 +7,7 @@ const consultarClima = async () => {
     );
     const datos = await respuesta.json();
     console.log(datos);
+    console.log(respuesta);
   } catch (error) {
     console.log(error);
   }
